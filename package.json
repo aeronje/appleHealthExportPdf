@@ -1,0 +1,22 @@
+{
+  "name": "apple-health-export-pdf",
+  "version": "1.1.1",
+  "private": true,
+  "type": "module",
+  "description": "Turn a local Apple Health export into a latest-workout PDF dashboard.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node appleHealthExportPdf.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pdfkit": "0.20.2",
+    "saxes": "6.0.0",
+    "yauzl": "3.4.0"
+  },
+  "devDependencies": {
+    "yazl": "3.3.1"
+  }
+}

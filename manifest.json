@@ -1,0 +1,11 @@
+{
+  "name": "appleHealthExportPdf",
+  "version": "1.1.1",
+  "reportSchemaVersion": 1,
+  "inputDirectory": "import",
+  "inputSelection": "Regular .zip files only (case-insensitive); newest modification time, filename ascending on ties",
+  "pathBase": "Repository directory, independent of current working directory",
+  "defaultOutputDirectory": "output/pdf",
+  "selection": "Latest valid workout by startDate instant; endDate breaks ties",
+  "processing": "Local Node.js CLI; no runtime network access"
+}
